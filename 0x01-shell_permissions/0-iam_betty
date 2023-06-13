@@ -1,1 +1,2 @@
-wc -c 
+#!/bin/bash
+cd betty
