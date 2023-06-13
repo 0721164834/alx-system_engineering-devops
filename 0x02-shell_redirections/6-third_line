@@ -1,0 +1,13 @@
+#!/bin/bash
+#define the file path
+file_path="./iacta"
+#check if the file exists
+if [ -f "$file_path" ]; then
+    #read the third line of the file
+    third_line=$(head -n 3 "$file_path" | tail -n 1)
+    #print the third line
+    echo "Third line of 'iacta':"
+    echo "$third_line"
+else
+    echo "File 'iacta' not found in the working directory."
+fi
