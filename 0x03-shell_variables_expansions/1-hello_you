@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "hello MyUser"
+current_user=$(whoami)
+echo "Hello $current_user!"
