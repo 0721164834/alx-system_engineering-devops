@@ -1,8 +1,2 @@
 #!/bin/bash
-if [$# -gt o ]; then
-    input="$@"
-else
-    input=$(cat)
-fi
-reversed_input=$(echo "$input" | rev)
-echo "$reversed_input"
+rev
